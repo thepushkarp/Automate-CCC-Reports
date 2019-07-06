@@ -27,15 +27,13 @@ while contestType not in range (1,3):
 	contestType = int(input("\nEnter the contest type (1 or 2):\n1. Solo Contest\n2. Team Contest\n"))
 
 # Open browser
-chrome_options = Options()
-chrome_options.add_argument('--log-level=3')
-chrome_options.add_argument('--headless') # Runs Chrome in headless mode.
-chrome_options.add_argument('--no-sandbox') # Bypass OS security model
-chrome_options.add_argument('--disable-gpu') # Applicable to windows os only
-chrome_options.add_argument('start-maximized')
-chrome_options.add_argument('disable-infobars')
-chrome_options.add_argument('--disable-extensions')
-driver = webdriver.Chrome(options = chrome_options)
+chromeOptions = Options()
+chromeOptions.add_argument('--log-level=3') # Does not displays logs
+chromeOptions.add_argument('--headless') # Runs Chrome in headless mode.
+chromeOptions.add_argument('--no-sandbox') # Bypass OS security model
+chromeOptions.add_argument('--disable-gpu') # Applicable to Windows only
+chromeOptions.add_argument('--disable-extensions')
+driver = webdriver.Chrome(options = chromeOptions)
 
 # Open contest page
 driver.get(url)
