@@ -14,7 +14,7 @@ This repository can be used for making the contest report of any other contest (
 - Create a virtual environment ([click here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) to learn about Virtual Environment)
 
 ```sh
-python -m venv env
+virtualenv env
 ```
 
 - Activate virtual environment (On macOS and Linux)
