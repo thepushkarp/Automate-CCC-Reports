@@ -70,10 +70,10 @@ for problem in problems:
 	accuracies.append(accuracy)
 
 # Minimum and maximum accuracies and submissions
-minAccu = [(problemCodes[i], accuracies[i]) for i, x in enumerate(accuracies) if x == min(accuracies)]
-maxAccu = [(problemCodes[i], accuracies[i]) for i, x in enumerate(accuracies) if x == max(accuracies)]
-minSub = [(problemCodes[i], submissions[i]) for i, x in enumerate(submissions) if x == min(submissions)]
-maxSub = [(problemCodes[i], submissions[i]) for i, x in enumerate(submissions) if x == max(submissions)]
+leastAcc = ', '.join([problemCodes[i] for i, x in enumerate(accuracies) if x == min(accuracies)])
+mostAcc = ', '.join([problemCodes[i] for i, x in enumerate(accuracies) if x == max(accuracies)])
+leastSub = ', '.join([problemCodes[i] for i, x in enumerate(submissions) if x == min(submissions)])
+mostSub = ', '.join([problemCodes[i] for i, x in enumerate(submissions) if x == max(submissions)])
 
 # Timings
 duration = urlSoup.find('strong', string = 'Duration: ').next_element.next_element.strip(' \" ')
@@ -81,7 +81,7 @@ startTime = urlSoup.find('strong', string = 'Start time: ').next_element.next_el
 endTime = urlSoup.find('strong', string = 'End time: ').next_element.next_element.strip(' \" ')
 
 # Contest style
-contestStyle = rankurlSoup.select('.rank-style-head a')[0].getText()
+contestStyle = rankurlSoup.select('.rank-style-head a')[0].getText().rstrip(' Ranklist ')
 
 # Ranking containers in <tr> tag
 ranks = rankurlSoup.select('.table-component tbody tr')[0:5]
@@ -104,3 +104,38 @@ for user in ranks:
 	score = user.select('.num')[1].find('div').getText()
 	score  = int(re.sub(r'\s*[-]\s*\(\d+\)\s*', '', score).strip(' \n '))
 	scores.append(score)
+
+# Template of post
+template = f'Greetings from the CodeChef Campus Chapter!\n\n' + \
+f'We are proud to announce the success of our {contestStyle} contest, {contestName}, which was held ' + \
+f'for {duration} from {startTime} to {endTime}.\n\n' + \
+f'The contest had a total of {numberOfProblems} problems.' + \
+f'The problem breakdown after the contest is as follows:\n' + \
+f'• Most Accuracy - {mostAcc} ({max(accuracies)}% Accuracy)\n' + \
+f'• Least Accuracy - {leastAcc} ({min(accuracies)}% Accuracy)\n' + \
+f'• Most Submissions - {mostSub} ({max(submissions)} Submissions)\n' + \
+f'• Least Submissions - {leastSub} ({min(submissions)} Submissions)\n\n' + \
+f'The problems are available for practice at: {url}\n\n' + \
+f'We hope that we were able to trigger your brainstorming skills and bring up your enthusiasm ,' + \
+f'motivating you to continue with Competitive Programming. We aim to give our 100% in organising ' + \
+f'every contest and achieve a next level every other time. Thank you for your participation and support.\n\n' + \
+f'We would like to congratulate the winner, 🏆 {names[0]} ({usernames[0]}), who scored {scores[0]} ' + \
+f'points and is on the top of the leaderboard.🎉😉.\n\n' + \
+f'The top 5 in the leaderboard are :\n' + \
+f'1) {names[0]} ({usernames[0]}), {institutes[0]} - {scores[0]} points\n' + \
+f'2) {names[1]} ({usernames[1]}), {institutes[1]} - {scores[1]} points\n' + \
+f'3) {names[2]} ({usernames[2]}), {institutes[2]} - {scores[2]} points\n' + \
+f'4) {names[3]} ({usernames[3]}), {institutes[3]} - {scores[3]} points\n' + \
+f'5) {names[4]} ({usernames[4]}), {institutes[4]} - {scores[4]} points\n\n' + \
+f'We extend a hearty Congratulations to all the participants!\n\n' + \
+f'The 250 CodeChef Laddus 🎁 have been given to the top 3 in the leaderboard😋.\n\n' + \
+f'We would like to thank CodeChef😁 for giving us the platform to host this competition.\n\n' + \
+f'Stay tuned, for the solution and editorials of the problems.\n\n' + \
+f'We also encourage you to leave your reviews of the contest in the comments!😁'
+
+# Saving post as .txt
+fileName = re.sub(' ', '-', contestName)
+postFile = open(os.path.join('posts', f'{fileName}.txt'), mode = 'w', encoding = 'utf-8')
+postFile.write(template)
+postFile.close()
+print(f'\nPost saved as {fileName}.txt')

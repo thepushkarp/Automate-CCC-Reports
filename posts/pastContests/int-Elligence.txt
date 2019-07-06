@@ -1,0 +1,32 @@
+Greetings from the CodeChef Campus Chapter!
+
+We are proud to announce the success of our ACM Style contest, int Elligence, which was held for 3 hours from 19th April 2019, 21:30 hrs IST to 20th April 2019, 00:30 hrs IST.
+
+The contest had a total of 6 problems.The problem breakdown after the contest is as follows:
+• Most Accuracy - FAKEBIN (35.3% Accuracy)
+• Least Accuracy - PRIMESET (9.55% Accuracy)
+• Most Submissions - FAKEBIN (293 Submissions)
+• Least Submissions - TRAIERR (15 Submissions)
+
+The problems are available for practice at: https://www.codechef.com/INTL2019
+
+We hope that we were able to trigger your brainstorming skills and bring up your enthusiasm ,motivating you to continue with Competitive Programming. We aim to give our 100% in organising every contest and achieve a next level every other time. Thank you for your participation and support.
+
+We would like to congratulate the winner, 🏆 Rahul Dugar (rahuldugar), who scored 6 points and is on the top of the leaderboard.🎉😉.
+
+The top 5 in the leaderboard are :
+1) Rahul Dugar (rahuldugar), Indian Institute of Technology Roorkee - 6 points
+2) teapotd (teapotd), Not Available - 6 points
+3) Adnan Ali (code_blast), Not Available - 6 points
+4) Julian Fernando (jfernando), Sekolah Menengah Atas Negeri 3 Kota Jambi Provinsi Jambi - 6 points
+5) Victor Racs&oacute; Galv&aacute;n Oyola (racsosabe), Universidad Nacional de Ingeniería - 6 points
+
+We extend a hearty Congratulations to all the participants!
+
+The 250 CodeChef Laddus 🎁 have been given to the top 3 in the leaderboard😋.
+
+We would like to thank CodeChef😁 for giving us the platform to host this competition.
+
+Stay tuned, for the solution and editorials of the problems.
+
+We also encourage you to leave your reviews of the contest in the comments!😁
