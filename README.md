@@ -35,11 +35,11 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-- Download the version of Chrome Driver as per your Chrome Version from http://chromedriver.chromium.org/downloads
+- Download the version of Chrome Driver as per your Google Chrome version from http://chromedriver.chromium.org/downloads
 
-- Put the Chrome Driver in the same folder as postGen.py
+- Add the path of the downloaded Chrome Driver to line no. 36 of postGen.py
 
-- Run and the script using `python postGen.py` and enter the contest link and the contest type in the prompt that follows.
+- Run and the script using `python postGen.py` and enter the contest link and the contest type in the prompt that follows
 
 ### License
 
