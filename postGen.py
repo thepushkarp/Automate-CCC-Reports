@@ -34,7 +34,7 @@ chromeOptions.add_argument('--no-sandbox') # Bypass OS security model
 chromeOptions.add_argument('--disable-gpu') # Applicable to Windows only
 chromeOptions.add_argument('--disable-extensions')
 path = 'add path to Chrome Driver here'
-if path == 'add path to Chrome Driver here':
+if not os.path.exists(path):
 	print('Please add the path to Chrome Driver in line no. 36 postGen.py')
 	sys.exit()
 driver = webdriver.Chrome(path, options = chromeOptions)
