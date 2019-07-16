@@ -10,7 +10,7 @@ This repository can be used for making the contest report of any other contest (
 
 ## How to Use? 😀
 
-__Running this script requires Google Chrome to run Selenium. Make sure to [have Google Chrome installed](https://www.google.com/chrome/) before going to the next steps.__
+**Running this script requires Google Chrome to run Selenium. Make sure to [have Google Chrome installed](https://www.google.com/chrome/) before going to the next steps.**
 
 - Clone the repository `$ git clone https://github.com/thepushkarp/Automate-CCC-Reports.git`
 - Create a virtual environment ([click here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) to learn about Virtual Environment)
@@ -39,11 +39,15 @@ pip3 install -r requirements.txt
 
 - Download the version of Chrome Driver as per your Google Chrome version from http://chromedriver.chromium.org/downloads
 
-- Add the path of the downloaded Chrome Driver to line no. 48 of [scrape.py](scrape.py)
+- Add the path of the downloaded Chrome Driver to line no. 31 of [scrape.py](scrape.py)
 
 - Run the script using `python3 post_gen.py` and enter the contest link, and the contest type in the prompt that follows. The posts generated would be saved in the `posts` folder.
 
-__NOTE: All the scripts are written in Python 3. So, make sure to use the appropriate version of pip and python.__
+**NOTE: All the scripts are written in Python 3. So, make sure to use the appropriate version of pip and python.**
+
+## Known Issues
+
+- On **some** contest pages, there may be empty tags in-between strings (like empty \<strong> tags between '3' and 'hours' in contest duration) due to which insted of '3 hours', it may save only '3' in the duration variable.
 
 ## License
 
