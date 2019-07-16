@@ -1,8 +1,9 @@
-Greetings from the CodeChef Campus Chapter!
+Greetings from the IIITV CodeChef Campus Chapter!
 
 We are proud to announce the success of our IOI Style contest, Null Void, which was held for 3 from 6th June 2019, 21:30 hrs IST to 7th June 2019, 00:30 hrs IST.
 
-The contest had a total of 6 problems.The problem breakdown after the contest is as follows:
+The contest had a total of 6 problems.
+The problem breakdown after the contest is as follows:
 • Most Accuracy - ROSO (60.54% Accuracy)
 • Least Accuracy - DANS (6.81% Accuracy)
 • Most Submissions - SABAR (636 Submissions)
@@ -10,11 +11,12 @@ The contest had a total of 6 problems.The problem breakdown after the contest is
 
 The problems are available for practice at: https://www.codechef.com/NUVO2019
 
-We hope that we were able to trigger your brainstorming skills and bring up your enthusiasm ,motivating you to continue with Competitive Programming. We aim to give our 100% in organising every contest and achieve a next level every other time. Thank you for your participation and support.
+We hope that we were able to trigger your brainstorming skills and bring up your enthusiasm, motivating you to continue with Competitive Programming. We aim to give our 100% in organising every contest and achieve a next level every other time. Thank you for your participation and support.
 
-We would like to congratulate the winner, 🏆 Vlad (wreckingball), who scored 600 points and is on the top of the leaderboard.🎉😉.
+We would like to congratulate the winner, 🏆 Vlad (wreckingball), who scored 600  points and is on the top of the leaderboard. 🎉😉
 
 The top 5 in the leaderboard are :
+
 1) Vlad (wreckingball), Saint Petersburg State University - 600 points
 2) uwi (uwi), Recruit Communications Co., Ltd. - 600 points
 3) Paul Wild (pwild), University of Erlangen-Nuremberg - 600 points
@@ -23,10 +25,10 @@ The top 5 in the leaderboard are :
 
 We extend a hearty Congratulations to all the participants!
 
-The 250 CodeChef Laddus 🎁 have been given to the top 3 in the leaderboard😋.
+The 250 CodeChef Laddus 🎁 have been given to the top 3 in the leaderboard. 😋
 
-We would like to thank CodeChef😁 for giving us the platform to host this competition.
+We would like to thank CodeChef 😁 for giving us the platform to host this competition.
 
 Stay tuned, for the solution and editorials of the problems.
 
-We also encourage you to leave your reviews of the contest in the comments!😁
+We also encourage you to leave your reviews of the contest in the comments! 😁

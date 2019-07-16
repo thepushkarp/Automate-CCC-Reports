@@ -1,20 +1,22 @@
-Greetings from the CodeChef Campus Chapter!
+Greetings from the IIITV CodeChef Campus Chapter!
 
 We are proud to announce the success of our ACM Style contest, Cook-a-Code Online Qualifier, which was held for 3 hours from 25th February 2019, 21:30 hrs IST to 26th February 2019, 00:30 hrs IST.
 
-The contest had a total of 7 problems.The problem breakdown after the contest is as follows:
+The contest had a total of 7 problems.
+The problem breakdown after the contest is as follows:
 • Most Accuracy - MCLOSET (26.45% Accuracy)
 • Least Accuracy - PALINKEY, BARDAVON (0.0% Accuracy)
 • Most Submissions - MCLOSET (300 Submissions)
 • Least Submissions - PALINKEY, BARDAVON (0 Submissions)
 
-The problems are available for practice at: https://www.codechef.com/CCOQ2019
+The problems are available for practice at: https://codechef.com/CCOQ2019
 
-We hope that we were able to trigger your brainstorming skills and bring up your enthusiasm ,motivating you to continue with Competitive Programming. We aim to give our 100% in organising every contest and achieve a next level every other time. Thank you for your participation and support.
+We hope that we were able to trigger your brainstorming skills and bring up your enthusiasm, motivating you to continue with Competitive Programming. We aim to give our 100% in organising every contest and achieve a next level every other time. Thank you for your participation and support.
 
-We would like to congratulate the winner, 🏆 gritukan_solo (GreenGrape wrote messages from my phone =(), who scored 5 points and is on the top of the leaderboard.🎉😉.
+We would like to congratulate the winner, 🏆 gritukan_solo (GreenGrape wrote messages from my phone =(), who scored 5  points and is on the top of the leaderboard. 🎉😉
 
 The top 5 in the leaderboard are :
+
 1) gritukan_solo (GreenGrape wrote messages from my phone =(), Lomonosov Moscow State University - 5 points
 2) xbugspersecond (1e9+7_Bugs_Per_Second), Shree LR Tiwari College of Engineering, Thane - 4 points
 3) pkmkb999 (pkmkb999), Jaypee Institute of Information Technology - 4 points
@@ -23,10 +25,10 @@ The top 5 in the leaderboard are :
 
 We extend a hearty Congratulations to all the participants!
 
-The 250 CodeChef Laddus 🎁 have been given to the top 3 in the leaderboard😋.
+The 250 CodeChef Laddus 🎁 have been given to the top 3 in the leaderboard. 😋
 
-We would like to thank CodeChef😁 for giving us the platform to host this competition.
+We would like to thank CodeChef 😁 for giving us the platform to host this competition.
 
 Stay tuned, for the solution and editorials of the problems.
 
-We also encourage you to leave your reviews of the contest in the comments!😁
+We also encourage you to leave your reviews of the contest in the comments! 😁
