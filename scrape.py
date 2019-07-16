@@ -39,19 +39,19 @@ class Contest:
     def download_pages(self, contest_url, rankpage_url):
         '''Function to open and download webpage.'''
 
-        print('\nDownloading contest pages...')
-
         chrome_options = Options()
         chrome_options.add_argument('--log-level=3') # Does not displays logs
         chrome_options.add_argument('--headless') # Runs Chrome in headless mode
         chrome_options.add_argument('--no-sandbox') # Bypass OS security model
         chrome_options.add_argument('--disable-gpu') # Applicable to Windows only
         chrome_options.add_argument('--disable-extensions')
-        driver_path = 'chromedriver.exe'
+        driver_path = 'Add path to Chrome Driver here'
         if not path.exists(driver_path):
-            print('Please add the path to Chrome Driver in line no. 50 of scrape.py')
+            print('\nPlease add the path to Chrome Driver in line no. 48 of scrape.py')
             sys.exit()
         driver = webdriver.Chrome(driver_path, options=chrome_options)
+
+        print('\nDownloading contest pages...')
 
         # Open contest page
         driver.get(contest_url)
@@ -80,7 +80,7 @@ class Contest:
 
         url_soup, rankurl_soup = self.download_pages(self.url, self.rankurl)
 
-        print('\nScraping contest pages...')
+        print('Scraping contest pages...')
 
         # Contest name
         self.contest_name = url_soup.find('title').getText().rstrip(' CodeChef ').rstrip(' |')
